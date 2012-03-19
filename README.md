@@ -3,7 +3,7 @@ What is retina-replace.js?
 
 - retina-replace.js is a jQuery plugin for replacing out css background-images and img tag src's for a high quality retina version
 - Only runs on devices with a devicePixelRatio > 1
-- Preloads images before updating to eliviate flashing when replaced
+- Preloads images before updating to alleiviate flashing when replaced
 
 By default ``_2x`` is appended to the image url so ``/img/foo.jpg`` would become ``/img/foo_2x.jpg``
 both the suffix and retina url generating function can be overriden on intalization.
