@@ -28,7 +28,7 @@
         var normal_url = is_image ? $el.attr('src') : $el.backgroundImageUrl();
         var retina_url = this.options.generateUrl($el, normal_url);
 
-        $('<img/>').attr('src', retina_url).load(function() {
+        $('<img/>').attr('src', retina_url).on('load', function() {
 
             if (is_image) {
                 $el.attr('src', $(this).attr('src'));
